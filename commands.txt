@@ -1,0 +1,8 @@
+git clone repository_name
+git branch -r (To check the available remote branches)
+git checkout branch_name (to switch to another branch)
+git checkout -b branch_name (to create the new branch from current branch)
+git status (to check the staged and unstaged changes)
+git add . (to stage all the changes)
+git commit -m "My commit" (to commit your changes)
+git push origin branch_name
