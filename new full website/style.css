@@ -2,11 +2,13 @@
     margin: 0;
 }
 
+
 body {
    background: radial-gradient(at 20% 30%, rgba(0, 255, 255, 0.8), transparent 40%),
               radial-gradient(at 80% 40%, rgba(173, 255, 47, 0.9), transparent 50%),
               radial-gradient(at 50% 70%, rgba(255, 255, 0, 0.85), transparent 50%);
   background-color: #ffffff;
+  font-size: small;
 }
 
 .maincontainer {
@@ -29,6 +31,9 @@ body {
     border-radius: 40px;
     margin: 10px 20px;
 }
+.active{
+    background-color: grey;
+}
 
 .startproject:hover {
     cursor: pointer;
@@ -49,9 +54,16 @@ body {
     color: rgba(0, 0, 0, .65);
     text-decoration: none;
 }
+ @media screen(max-width:1064px) {
+    body{
+        width:70%;
+        height:70%;
+    }
+ }
 
-.nav-data>ul>a:hover {
-    color: black;
+.nav-data>ul>a:hover:not(.active) {
+    background-color: black;
+    color: white;
     cursor: pointer;
 }
 
@@ -986,5 +998,11 @@ font-family: Sporting Grotesque, sans-serif;
     color: #fff;
     letter-spacing: -2px;
 }
+@media (max-width:1001px) {
+    body{
+        width: 90%;
 
+    }
+    
+}
 
