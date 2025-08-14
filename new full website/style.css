@@ -4,10 +4,12 @@
 
 
 body {
-   background: radial-gradient(at 20% 30%, rgba(0, 255, 255, 0.8), transparent 40%),
-              radial-gradient(at 80% 40%, rgba(173, 255, 47, 0.9), transparent 50%),
-              radial-gradient(at 50% 70%, rgba(255, 255, 0, 0.85), transparent 50%);
-  background-color: #ffffff;
+    background-image: url(https://salmanahmad.netlify.app/assets/background-BWMMXkW6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vw;
+    width: 100vw;
+    z-index: -1;
   font-size: small;
 }
 
@@ -32,7 +34,7 @@ body {
     margin: 10px 20px;
 }
 .active{
-    background-color: grey;
+    background-color: transparent;
 }
 
 .startproject:hover {
@@ -61,7 +63,7 @@ body {
     }
  }
 
-.nav-data>ul>a:hover:not(.active) {
+.nav-data>ul>a:hover {
     background-color: black;
     color: white;
     cursor: pointer;
@@ -84,6 +86,7 @@ body {
 }
 
 .firstcontent {
+    
     margin-bottom: 3rem;
     padding: 25px 50px 0px 50px;
     z-index: 1;
@@ -824,7 +827,7 @@ padding-top: 1rem !important;
 }
 .formdataa{
     box-sizing: border-box;
-border: none;
+    border: none;
     outline: none;
     background-color: transparent;
     border-bottom: 2px solid #ffffff;
